@@ -18,8 +18,9 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
-            isShrinkResources = true
+            // R8 is off: Vosk (JNA) and ML Kit rely on reflection; an unshrunk build is the one that's been tested.
+            isMinifyEnabled = false
+            isShrinkResources = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
             // Signed with debug key for personal sideloading only. Replace for distribution.
             signingConfig = signingConfigs.getByName("debug")
