@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shortcut_listen">Talk to Sami</string>
+    <string name="a11y_summary">Lets you control the screen by voice (back, scroll, tap, screenshots).</string>
+    <string name="a11y_description">Sami is a personal voice assistant, not a disability tool. When you enable this, Sami can perform the screen actions you ask for by voice — go back, open recents or notifications, take a screenshot, scroll, and tap or long-press items by their name. Sami reads the current window only when you give a screen command; it does not monitor, store, or upload what is on your screen.</string>
+</resources>

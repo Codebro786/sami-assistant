@@ -1,0 +1,15 @@
+# Build outputs
+build/
+app/build/
+.gradle/
+.kotlin/
+# Local machine config (SDK path)
+local.properties
+# IDE
+.idea/
+*.iml
+# Secrets — never commit keys or keystores
+*.keystore
+*.jks
+*.ppn
+captures/
