@@ -1,5 +1,8 @@
 # Sami — a personal voice assistant for Android
 
+> © 2026 Codebro786. **All rights reserved.** Source shown for reference only — no copying, reuse, redistribution or
+> re-publishing without written permission. See [LICENSE](LICENSE).
+
 Sami is a voice-first assistant for Android, written in Kotlin with Jetpack Compose. Say **"Hey Sami"** and a Siri-style overlay
 appears over whatever you're doing; ask in English, Hindi or Hinglish and it acts on the phone.
 
@@ -48,3 +51,6 @@ text are sent to the AI only when you ask and only if you allow it in Settings.
 
 ## Third-party components
 See [NOTICE.md](NOTICE.md).
+
+## License
+© 2026 Codebro786. All rights reserved — see [LICENSE](LICENSE). This is not open-source software.
